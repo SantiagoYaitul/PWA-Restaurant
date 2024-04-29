@@ -1,0 +1,40 @@
+{
+    "comidas": [
+        {
+            "id": 1,
+            "name": "Hamburguesa clásica",
+            "description": "Una jugosa hamburguesa con queso, lechuga, tomate y salsa especial.",
+            "coverImage": "hamburguesa.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Pizza Pepperoni",
+            "description": "Pizza con salsa de tomate, queso mozzarella y abundantes rodajas de pepperoni.",
+            "coverImage": "pizza.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Ensalada César",
+            "description": "Ensalada fresca con lechuga, pollo a la parrilla, crutones y aderezo César.",
+            "coverImage": "ensalada.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Sushi variado",
+            "description": "Selección de sushi fresco incluyendo nigiri, sashimi y rolls.",
+            "coverImage": "sushi.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Tacos de carne asada",
+            "description": "Tortillas de maíz rellenas de jugosa carne asada, cebolla y cilantro.",
+            "coverImage": "tacos.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Pasta Carbonara",
+            "description": "Pasta italiana con una cremosa salsa de huevo, panceta, queso parmesano y pimienta negra.",
+            "coverImage": "pasta.jpg"
+        }
+    ]
+}

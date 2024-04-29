@@ -1,0 +1,23 @@
+{
+    "id": 3,
+    "name": "Ensalada César",
+    "description": "Ensalada fresca con lechuga, pollo a la parrilla, crutones y aderezo César.",
+    "coverImage": "ensalada.jpg",
+    "galeria": [
+        "ensalada_1.jpg",
+        "ensalada_2.jpg",
+        "ensalada_3.jpg"
+    ],
+    "precio": 9.75,
+    "ingredientes": [
+        "Lechuga romana",
+        "Pechuga de pollo",
+        "Crutones",
+        "Queso parmesano",
+        "Aderezo César"
+    ],
+    "calorias": 450,
+    "alergenos": [
+        "Lácteos"
+    ]
+}

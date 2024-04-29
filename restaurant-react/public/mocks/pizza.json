@@ -1,0 +1,23 @@
+{
+    "id": 2,
+    "name": "Pizza Pepperoni",
+    "description": "Pizza con salsa de tomate, queso mozzarella y abundantes rodajas de pepperoni.",
+    "coverImage": "pizza.jpg",
+    "galeria": [
+        "pizza_1.jpg",
+        "pizza_2.jpg",
+        "pizza_3.jpg"
+    ],
+    "precio": 12.50,
+    "ingredientes": [
+        "Masa de pizza",
+        "Salsa de tomate",
+        "Queso mozzarella",
+        "Pepperoni"
+    ],
+    "calorias": 850,
+    "alergenos": [
+        "Gluten",
+        "Lácteos"
+    ]
+}
