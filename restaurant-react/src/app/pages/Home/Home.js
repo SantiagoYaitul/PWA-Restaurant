@@ -1,9 +1,8 @@
-import Button from "../../components/Button/Button";
-import style from "./Home.module.css";
+import Navbar from "../../components/Navbar/Navbar";
 
 
 export default function Home () {
     return (
-        <Button />
+        <Navbar />
     )
 }
