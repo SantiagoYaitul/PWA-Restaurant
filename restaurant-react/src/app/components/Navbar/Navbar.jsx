@@ -1,4 +1,5 @@
-// components/Navbar.js
+// src/app/components/Navbar/Navbar.js
+import React from 'react';
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -6,7 +7,6 @@ const Navbar = () => {
         <nav className="bg-gray-800 p-4">
             <div className="flex justify-between">
                 <div>
-                    {/* Logo a la izquierda */}
                     <Link href="/">
                         <span className="flex items-center text-white">
                             <h1>Logo</h1>
@@ -14,10 +14,9 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div>
-                    {/* Enlaces a la derecha */}
                     <ul className="flex space-x-4">
                         <li>
-                            <Link href="/details">
+                            <Link href="restaurant-react/src/app/pages/Details/Details">
                                 <span className="text-white hover:text-gray-400">Details</span>
                             </Link>
                         </li>
@@ -34,4 +33,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
