@@ -1,0 +1,24 @@
+{
+    "id": 1,
+    "name": "Hamburguesa clásica",
+    "description": "Una jugosa hamburguesa con queso, lechuga, tomate y salsa especial.",
+    "coverImage": "hamburguesa.jpg",
+    "galeria": [
+        "hamburguesa_1.jpg",
+        "hamburguesa_2.jpg",
+        "hamburguesa_3.jpg"
+    ],
+    "precio": 8.99,
+    "ingredientes": [
+        "Carne de res",
+        "Queso cheddar",
+        "Lechuga",
+        "Tomate",
+        "Pan de hamburguesa"
+    ],
+    "calorias": 600,
+    "alergenos": [
+        "Gluten",
+        "Lácteos"
+    ]
+}
