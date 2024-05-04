@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import useFoodHooks from "../../hooks/useFoodHooks";
 import FoodItem from "../FoodItem/FoodItem";
 

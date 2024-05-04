@@ -1,23 +1,19 @@
-import React from 'react';
 import Button from '../Button/Button';
-//import style from './FoodItem.module.css';
+import FoodImage from '../FoodImage/FoodImage';
+import style from './FootItem.module.css';
 
 const FoodItem = ({ food }) => {
     return (
-        <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-8">
+        <div className={style.container}>
             <div className="md:flex">
-                <div className="md:w-1/3 bg-gray-800 text-white p-4 text-center md:text-left rounded-tl-xl rounded-bl-xl">
-                    <img src="/" alt="Imagen" className="w-full h-auto" />
-                </div>
-                <div className="md:w-2/3 p-4">
-                    <h2 className="text-2xl font-bold">{food.name}</h2>
-                    <p className="text-gray-700 mt-2">{food.description}</p>
+                <FoodImage />
+                <div className={style.details}>
+                    <h2 className={style.name}>{food.name}</h2>
+                    <p className={style.description}>{food.description}</p>
                     <div className="mt-4">
-                        <h3 className="text-lg font-semibold text-right">Precio: {food.precio}</h3>
+                        <h3 className={style.price}>Precio: {food.precio}</h3>
                     </div>
-                    <div className="text-right p-4">
-                        <Button id={food.id}/>
-                    </div>
+                        <Button id={food.id} />
                 </div>
             </div>
         </div>

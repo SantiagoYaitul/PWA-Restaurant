@@ -4,10 +4,10 @@ import style from './Button.module.css';
 const Button = ({ id }) => {
     
     return (
-        <div>
+        <div className={style.container}>
             <Link href={`/pages/Details/?id=${id}`}>
                 <button className={style.button}>
-                    Ver más + {id}
+                    Detalles
                 </button>
             </Link>
         </div>

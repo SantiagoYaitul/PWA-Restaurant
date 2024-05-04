@@ -1,0 +1,23 @@
+.navbar {
+    @apply bg-gray-800 p-4;
+}
+
+.flexContainer {
+    @apply flex justify-between;
+}
+
+.logo {
+    @apply flex items-center text-white;
+}
+
+.navLinks {
+    @apply flex space-x-4;
+}
+
+.navLink {
+    @apply text-white;
+}
+
+.hoverEffect:hover {
+    @apply hover:text-gray-400;
+}

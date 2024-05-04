@@ -1,18 +1,10 @@
 "use client";
-import FoodDetails from '@/app/components/FoodDetails/FoodDetails';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import FoodDetails from '../../components/FoodDetails/FoodDetails';
+import useUrlParams from '../../hooks/useUrlParams';
 
 const Page = () => {
-    const [id, setId] = useState(null);
-
-    useEffect(() => {
-        const getIdFromUrl = () => {
-            const params = new URLSearchParams(window.location.search);
-            const idFromUrl = params.get('id');
-            setId(idFromUrl);
-        };
-        getIdFromUrl();
-    }, []);
+    const id = useUrlParams();
 
     return (
         <div>
@@ -22,4 +14,3 @@ const Page = () => {
 };
 
 export default Page;
-
