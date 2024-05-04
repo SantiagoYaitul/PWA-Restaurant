@@ -1,9 +1,25 @@
-import Button from "../../components/Button/Button";
+"use client";
+import FoodDetails from '@/app/components/FoodDetails/FoodDetails';
+import React, { useEffect, useState } from 'react';
 
-export default function Details() {
+const Page = () => {
+    const [id, setId] = useState(null);
+
+    useEffect(() => {
+        const getIdFromUrl = () => {
+            const params = new URLSearchParams(window.location.search);
+            const idFromUrl = params.get('id');
+            setId(idFromUrl);
+        };
+        getIdFromUrl();
+    }, []);
+
     return (
         <div>
-            <Button />
+            <FoodDetails id={id}/>
         </div>
     );
-}
+};
+
+export default Page;
+
