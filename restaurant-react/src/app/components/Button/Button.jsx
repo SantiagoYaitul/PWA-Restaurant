@@ -1,11 +1,10 @@
 import style from "./Button.module.css";
-import { FaCat } from "react-icons/fa";
 
 
-const Button = () => {
+const Button = ({id}) => {
     return (
         <button className={style.button}>
-            <FaCat />
+            Ver mas + {id}
         </button>
     );
 };

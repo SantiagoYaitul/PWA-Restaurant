@@ -1,4 +1,3 @@
-// src/app/components/Navbar/Navbar.js
 import React from 'react';
 import Link from 'next/link';
 
@@ -16,7 +15,7 @@ const Navbar = () => {
                 <div>
                     <ul className="flex space-x-4">
                         <li>
-                            <Link href="restaurant-react/src/app/pages/Details/Details">
+                            <Link href="/pages/Details">
                                 <span className="text-white hover:text-gray-400">Details</span>
                             </Link>
                         </li>
@@ -33,3 +32,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

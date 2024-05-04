@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button/Button';
 //import style from './FoodItem.module.css';
 
 const FoodItem = ({ food }) => {
@@ -12,12 +13,10 @@ const FoodItem = ({ food }) => {
                     <h2 className="text-2xl font-bold">{food.name}</h2>
                     <p className="text-gray-700 mt-2">{food.description}</p>
                     <div className="mt-4">
-                        <h3 className="text-lg font-semibold text-right">Precio:</h3>
+                        <h3 className="text-lg font-semibold text-right">Precio: {food.precio}</h3>
                     </div>
                     <div className="text-right p-4">
-                        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                            Ver más
-                        </button>
+                        <Button id={food.id}/>
                     </div>
                 </div>
             </div>
