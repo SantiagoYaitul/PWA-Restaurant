@@ -5,7 +5,7 @@
             "name": "Hamburguesa clásica",
             "description": "Una jugosa hamburguesa con queso, lechuga, tomate y salsa especial.",
             "precio": "$10.12",
-            "coverImage": "hamburguesa.jpg"
+            "coverImage": "/img/burger1.jpg"
         },
         {
             "id": "pizza",
