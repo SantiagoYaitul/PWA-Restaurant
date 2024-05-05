@@ -1,9 +1,9 @@
-import Link from "next/link";
+import Home from "./pages/Home/Home";
 
 export default function App() {
   return (
     <main>
-      <Link href="/pages/test">Go to Tests</Link>
+      <Home />
     </main>
   );
 }
