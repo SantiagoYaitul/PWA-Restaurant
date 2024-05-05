@@ -1,5 +1,5 @@
-"use client";
 import React from "react";
+import style from "./FoodDetails.module.css";
 import useFetchFoods from '../../hooks/useFetchFoods';
 
 const FoodDetails = ({ id }) => {
@@ -7,48 +7,58 @@ const FoodDetails = ({ id }) => {
 
     return (
         <div>
-            {foods ? (
-                <div>
-                    <h2>{foods.name}</h2>
-                    <p>{foods.description}</p>
-                    <p>Precio: ${foods.precio}</p>
-                    <p>Calorías: {foods.calorias}</p>
-                    <div className="max-w-3xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
-                        <div className="flex">
-
-                            <div className="w-1/2 p-4">
-                                <img src="imagen.jpg" alt="Imagen" className="w-full h-auto rounded-lg" />
-                            </div>
-
-                            <div className="w-1/2 p-4">
-                                <h2 className="text-xl font-semibold mb-2">Ingredientes</h2>
-                                <ul>
-                                    <li>{id}</li>
-                                    <li>Ingrediente 2</li>
-                                    <li>Ingrediente 3</li>
-                                </ul>
+            {foods && (
+                <div className={style.container}>
+                    <div className="flex">
+                        <div className={style.imageContainer}>
+                            <img src={foods.coverImage} alt={foods.name} className={style.image} />
+                        </div>
+                        <div className={style.ingredientsContainer}>
+                            <h2 className={style.title}>Ingredientes</h2>
+                            <ul className={style.list}>
+                                {foods.ingredientes.map((ingrediente, index) => (
+                                    <li key={index}>{ingrediente}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="h-4"></div>
+                    <div className="flex justify-center">
+                        <div className={style.allergiesContainer}>
+                            <div className="flex justify-between">
+                                <div>
+                                    <h2 className={style.title}>Alergias</h2>
+                                    <ul className={style.list}>
+                                        {foods.alergenos.map((alergeno, index) => (
+                                            <li key={index}>{alergeno}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h2 className={style.title}>Calorías</h2>
+                                    <p>Calorías por porción: {foods.calorias}</p>
+                                </div>
                             </div>
                         </div>
-
-                        <div className="p-4">
-                            <h2 className="text-xl font-semibold mb-2">Detalles</h2>
-                            <p>{foods.description}</p>
-                        </div>
-
-                        <div className="p-4">
-                            <h2 className="text-xl font-semibold mb-2">Imágenes adicionales</h2>
+                    </div>
+                    <div className="h-4"></div>
+                    <div className={style.descriptionContainer}>
+                        <h2 className={style.title}>Descripción</h2>
+                        <p className={style.description}>{foods.description}</p>
+                    </div>
+                    <div className="h-4"></div>
+                    <div className={style.additionalImagesContainer}>
+                        <h2 className={style.title}>Imágenes adicionales</h2>
+                        <div className={style.carousel}>
+                            {foods.galeria.map((imagen, index) => (
+                                <img key={index} src={imagen} alt={"Imagen " + (index + 1)} className={style.additionalImage} />
+                            ))}
                         </div>
                     </div>
                 </div>
-
-
-            ) : (
-                <p>Cargando...</p>
             )}
         </div>
     );
 };
 
 export default FoodDetails;
-
-
