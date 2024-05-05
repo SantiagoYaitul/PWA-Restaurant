@@ -1,0 +1,46 @@
+{
+    "comidas": [
+        {
+            "id": "hamburguesa",
+            "name": "Hamburguesa clásica",
+            "description": "Una jugosa hamburguesa con queso, lechuga, tomate y salsa especial.",
+            "precio": "$10.12",
+            "coverImage": "/img/burger1.jpg"
+        },
+        {
+            "id": "pizza",
+            "name": "Pizza Pepperoni",
+            "description": "Pizza con salsa de tomate, queso mozzarella y abundantes rodajas de pepperoni.",
+            "precio": "$11.12",
+            "coverImage": "pizza.jpg"
+        },
+        {
+            "id": "ensalada",
+            "name": "Ensalada César",
+            "description": "Ensalada fresca con lechuga, pollo a la parrilla, crutones y aderezo César.",
+            "precio": "$12.12",
+            "coverImage": "ensalada.jpg"
+        },
+        {
+            "id": "sushi",
+            "name": "Sushi variado",
+            "description": "Selección de sushi fresco incluyendo nigiri, sashimi y rolls.",
+            "precio": "$13.12",
+            "coverImage": "sushi.jpg"
+        },
+        {
+            "id": "tacos",
+            "name": "Tacos de carne asada",
+            "precio": "$14.12",
+            "description": "Tortillas de maíz rellenas de jugosa carne asada, cebolla y cilantro.",
+            "coverImage": "tacos.jpg"
+        },
+        {
+            "id": "pasta",
+            "name": "Pasta Carbonara",
+            "precio": "$15.12",
+            "description": "Pasta italiana con una cremosa salsa de huevo, panceta, queso parmesano y pimienta negra.",
+            "coverImage": "pasta.jpg"
+        }
+    ]
+}

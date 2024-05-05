@@ -1,0 +1,25 @@
+{
+    "id": 6,
+    "name": "Pasta Carbonara",
+    "description": "Pasta italiana con una cremosa salsa de huevo, panceta, queso parmesano y pimienta negra.",
+    "coverImage": "pasta.jpg",
+    "galeria": [
+        "pasta_1.jpg",
+        "pasta_2.jpg",
+        "pasta_3.jpg"
+    ],
+    "precio": 14.50,
+    "ingredientes": [
+        "Pasta (spaghetti o fettuccine)",
+        "Huevo",
+        "Panceta",
+        "Queso parmesano",
+        "Pimienta negra"
+    ],
+    "calorias": 800,
+    "alergenos": [
+        "Gluten",
+        "Huevo",
+        "Lácteos"
+    ]
+}
