@@ -2,7 +2,7 @@
     "id": 5,
     "name": "Tacos de carne asada",
     "description": "Tortillas de maíz rellenas de jugosa carne asada, cebolla y cilantro.",
-    "coverImage": "tacos.jpg",
+    "coverImage": "/img/tacos.jpg",
     "galeria": [
         "tacos_1.jpg",
         "tacos_2.jpg",

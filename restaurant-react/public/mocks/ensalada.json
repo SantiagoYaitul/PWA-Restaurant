@@ -2,7 +2,7 @@
     "id": 3,
     "name": "Ensalada César",
     "description": "Ensalada fresca con lechuga, pollo a la parrilla, crutones y aderezo César.",
-    "coverImage": "ensalada.jpg",
+    "coverImage": "/img/ensalada.jpg",
     "galeria": [
         "ensalada_1.jpg",
         "ensalada_2.jpg",

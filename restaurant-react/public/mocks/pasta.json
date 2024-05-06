@@ -2,7 +2,7 @@
     "id": 6,
     "name": "Pasta Carbonara",
     "description": "Pasta italiana con una cremosa salsa de huevo, panceta, queso parmesano y pimienta negra.",
-    "coverImage": "pasta.jpg",
+    "coverImage": "/img/pasta.jpg",
     "galeria": [
         "pasta_1.jpg",
         "pasta_2.jpg",

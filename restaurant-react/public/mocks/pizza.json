@@ -2,7 +2,7 @@
     "id": 2,
     "name": "Pizza Pepperoni",
     "description": "Pizza con salsa de tomate, queso mozzarella y abundantes rodajas de pepperoni.",
-    "coverImage": "pizza.jpg",
+    "coverImage": "/img/pizza.jpg",
     "galeria": [
         "pizza_1.jpg",
         "pizza_2.jpg",

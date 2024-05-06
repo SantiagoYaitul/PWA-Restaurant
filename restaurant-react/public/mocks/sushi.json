@@ -2,7 +2,7 @@
     "id": 4,
     "name": "Sushi variado",
     "description": "Selección de sushi fresco incluyendo nigiri, sashimi y rolls.",
-    "coverImage": "sushi.jpg",
+    "coverImage": "/img/sushi.jpg",
     "galeria": [
         "sushi_1.jpg",
         "sushi_2.jpg",
