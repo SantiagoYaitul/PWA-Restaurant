@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FaInstagram, FaFacebookF, FaSquareXTwitter, FaSquareReddit, FaSteam, FaGithub } from "react-icons/fa6";
 
 export default () => {
-   return <div className="fixed bottom-0 flex flex-row justify-between flex-nowrap w-full border-t-2 rounded-sm px-2 py-3">
+   return <div className="dark:bg-slate-800 dark:text-white flex flex-col md:flex-row justify-between flex-nowrap w-full border-t-2 rounded-t-xl px-2 py-3">
       <span className="flex">
          <span className="text-center">Made with <Link href="nextjs.org" className="font-extrabold">NextJS</Link></span>
       </span>
@@ -51,4 +51,4 @@ export default () => {
          </ul>
       </span>
    </div>
-}     
+}

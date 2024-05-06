@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+// TODO implement new palette (or another palette)
+:root {
+  --background-color: #1E152A;
+  --foreground-color: #FEFDFF;
+  --shadow-color: #6A7B76;
+  --highlight-color: #F7DD72;
+  --spotlight-color: #FF8552;
+} */
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -10,20 +20,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: ##1E152A;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-} */
+}
 
-/* body {
+body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {

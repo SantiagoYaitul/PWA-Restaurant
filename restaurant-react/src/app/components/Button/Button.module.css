@@ -1,7 +1,8 @@
-.container {
+/* TODO Why is this braking everything? */
+/* .container {
     @apply text-right p-4;
 }
 
 .button {
     @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded
-}
+} */
