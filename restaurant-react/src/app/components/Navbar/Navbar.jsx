@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import style from './Navbar.module.css';
+import { FaA, FaPlus } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
@@ -9,7 +10,7 @@ const Navbar = () => {
                 <div>
                     <Link href="/">
                         <span className={`${style.logo}`}>
-                            <h1>A++</h1>
+                            <h1 className='flex flex-row'><FaA /><FaPlus /><FaPlus /></h1>
                         </span>
                     </Link>
                 </div>
