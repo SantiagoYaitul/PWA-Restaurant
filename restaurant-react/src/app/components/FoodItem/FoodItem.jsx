@@ -1,14 +1,16 @@
 import Button from '../Button/Button';
 import FoodImage from '../FoodImage/FoodImage';
+import FoodTitle from '../FootTitle/FoodTitle';
 import style from './FootItem.module.css';
+
 
 const FoodItem = ({ food }) => {
     return (
         <div className={style.container}>
             <div className="md:flex">
-                <FoodImage coverImage={food.coverImage} />
+                <FoodImage coverImage={food.coverImage} name={food.name}/>
                 <div className={style.details}>
-                    <h2 className={style.name}>{food.name}</h2>
+                    <FoodTitle name={food.name} />
                     <p className={style.description}>{food.description}</p>
                     <div className="mt-4">
                         <h3 className={style.price}>Precio: {food.precio}</h3>

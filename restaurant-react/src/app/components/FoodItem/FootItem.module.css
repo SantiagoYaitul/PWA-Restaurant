@@ -10,10 +10,6 @@
     @apply md:w-2/3 p-4;
 }
 
-.name {
-    @apply text-2xl font-bold;
-}
-
 .description {
     @apply text-gray-700 mt-2;
 }

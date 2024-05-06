@@ -19,7 +19,7 @@
 }
 
 .list {
-    /* Your list styles here */
+    @apply list-disc pl-8;
 }
 
 .allergiesContainer {
@@ -50,3 +50,10 @@
     @apply w-32 h-32 object-cover rounded-lg mr-2;
 }
 
+.ingredientsList {
+    @apply pb-4;
+}
+
+.bottomPadding {
+    @apply h-20;
+}

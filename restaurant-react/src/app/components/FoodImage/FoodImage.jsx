@@ -1,9 +1,9 @@
 import style from './FoodImage.module.css';
 
-const FoodImage = ( {coverImage } ) => {
+const FoodImage = ( {coverImage , name} ) => {
     return (
         <div className={style.container}>
-        <img src={coverImage} alt="Imagen" className={style.image} />
+        <img src={coverImage} alt={name} className={style.image} />
     </div>
     );
 };
