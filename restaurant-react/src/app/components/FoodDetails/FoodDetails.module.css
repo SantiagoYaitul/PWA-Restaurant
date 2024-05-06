@@ -1,0 +1,52 @@
+.container {
+    @apply max-w-3xl mx-auto bg-white rounded-lg overflow-hidden shadow-lg;
+}
+
+.imageContainer {
+    @apply w-1/2 p-4;
+}
+
+.image {
+    @apply w-full h-auto rounded-lg;
+}
+
+.ingredientsContainer {
+    @apply w-1/2 p-4;
+}
+
+.title {
+    @apply text-xl font-semibold mb-2;
+}
+
+.list {
+    /* Your list styles here */
+}
+
+.allergiesContainer {
+    @apply w-3/4 p-4;
+}
+
+.caloriesContainer {
+    @apply w-3/4 p-4;
+}
+
+.descriptionContainer {
+    @apply p-4;
+}
+
+.description {
+    @apply text-xl font-semibold mb-2;
+}
+
+.additionalImagesContainer {
+    @apply p-4;
+}
+
+.carousel {
+    @apply flex;
+}
+
+.additionalImage {
+    @apply w-32 h-32 object-cover rounded-lg mr-2;
+}
+
