@@ -11,7 +11,7 @@ export default () => {
          <span className="font-extrabold text-lg pb-2">Contact</span>
          <ul>
             <li>Delivery: +** ***-**** ****</li>
-            <li>Email: aplusplus_resto@support.com</li>
+            <li>Email: approvedplusplus@support.com</li>
             <li>Location: Av. Argentina 145</li>
          </ul>
       </span>

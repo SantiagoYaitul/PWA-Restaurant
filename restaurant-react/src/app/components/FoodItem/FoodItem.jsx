@@ -3,7 +3,6 @@ import FoodImage from '../FoodImage/FoodImage';
 import style from './FootItem.module.css';
 
 const FoodItem = ({ food }) => {
-    console.log(food);
     return (
         <div className={style.container}>
             <div className="md:flex">
