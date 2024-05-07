@@ -1,14 +1,14 @@
 import Button from '../Button/Button';
 import FoodImage from '../FoodImage/FoodImage';
 import FoodTitle from '../FootTitle/FoodTitle';
-import style from './FootItem.module.css';
+import style from './FoodItem.module.css';
 
 
 const FoodItem = ({ food }) => {
     return (
         <div className={style.container}>
             <div className="md:flex">
-                <FoodImage coverImage={food.coverImage} name={food.name}/>
+                <FoodImage coverImage={food.coverImage} name={food.name} />
                 <div className={style.details}>
                     <FoodTitle name={food.name} />
                     <p className={style.description}>{food.description}</p>
