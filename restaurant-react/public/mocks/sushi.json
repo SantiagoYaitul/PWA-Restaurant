@@ -1,12 +1,12 @@
 {
     "id": 4,
     "name": "Sushi variado",
-    "description": "Selección de sushi fresco incluyendo nigiri, sashimi y rolls.",
-    "coverImage": "/img/sushi.jpg",
+    "description": "Sushi preparado por el chef, con salmon fresco, verdura y arroz, con selección de variedad tales como, nigiri, sashimi y rolls, Makis, Futomakis, Uramakis, con salsa de soja para acompañar",
+    "coverImage": "/img/Sushi/sushi.jpg",
     "galeria": [
-        "sushi_1.jpg",
-        "sushi_2.jpg",
-        "sushi_3.jpg"
+        "/img/Sushi/SashimiNigiri.jpg",
+        "/img/Sushi/Maki.jpg",
+        "/img/Sushi/Uromaki.jpg"
     ],
     "precio": 18.99,
     "ingredientes": [

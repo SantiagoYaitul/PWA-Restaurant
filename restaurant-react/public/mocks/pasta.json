@@ -1,12 +1,12 @@
 {
     "id": 6,
     "name": "Pasta Carbonara",
-    "description": "Pasta italiana con una cremosa salsa de huevo, panceta, queso parmesano y pimienta negra.",
-    "coverImage": "/img/pasta.jpg",
+    "description": "Pasta casera italiana con, panceta troceada y una cremosa salsa elaborada a base de huevo, queso parmesano y pimienta negra.",
+    "coverImage": "/img/Pasta/pasta.jpg",
     "galeria": [
-        "pasta_1.jpg",
-        "pasta_2.jpg",
-        "pasta_3.jpg"
+        "/img/Pasta/Fideos.jpg",
+        "/img/Pasta/Panceta.jpg",
+        "/img/Pasta/Carbonara.jpg"
     ],
     "precio": 14.50,
     "ingredientes": [

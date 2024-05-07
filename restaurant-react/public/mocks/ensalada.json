@@ -1,12 +1,13 @@
 {
     "id": 3,
     "name": "Ensalada César",
-    "description": "Ensalada fresca con lechuga, pollo a la parrilla, crutones y aderezo César.",
-    "coverImage": "/img/ensalada.jpg",
+    "description": "Ensalada fresca con lechuga romana, pollo a la parrilla, croûtons con jugo de limón, con una salsa elaborada de aceite de oliva, huevo, salsa Worcestershire, anchoas, ajo, mostaza de Dijon, queso parmesano y pimienta negra",
+    "coverImage": "/img/Ensalada/ensalada.jpg",
     "galeria": [
-        "ensalada_1.jpg",
-        "ensalada_2.jpg",
-        "ensalada_3.jpg"
+        "/img/Ensalada/Pollo.jpg",
+        "/img/Ensalada/Lechuga.jpg",
+        "/img/Ensalada/Crutones.jpg",
+        "/img/Ensalada/Salsa.jpg"
     ],
     "precio": 9.75,
     "ingredientes": [

@@ -1,12 +1,12 @@
 {
     "id": 1,
-    "name": "Hamburguesa clásica",
-    "description": "Una jugosa hamburguesa con queso, lechuga, tomate y salsa especial.",
-    "coverImage": "/img/burger1.jpg",
+    "name": "Hamburguesa De la Casa",
+    "description": "Una Hamburguesa de carne vacuno preparada a la plancha, con queso cheddar, tomate, lechuga, cebolla morada y salsa ranch casera con receta original.",
+    "coverImage": "/img/Hamburguesa/burger1.jpg",
     "galeria": [
-        "hamburguesa_1.jpg",
-        "hamburguesa_2.jpg",
-        "hamburguesa_3.jpg"
+        "/img/Hamburguesa/Carne.jpg",
+        "/img/Hamburguesa/Ingredientes.jpg",
+        "/img/Hamburguesa/Ranch.jpg"
     ],
     "precio": 8.99,
     "ingredientes": [
@@ -14,6 +14,7 @@
         "Queso cheddar",
         "Lechuga",
         "Tomate",
+        "Cebolla Morada",
         "Pan de hamburguesa"
     ],
     "calorias": 600,

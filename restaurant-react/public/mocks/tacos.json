@@ -1,12 +1,13 @@
 {
     "id": 5,
     "name": "Tacos de carne asada",
-    "description": "Tortillas de maíz rellenas de jugosa carne asada, cebolla y cilantro.",
-    "coverImage": "/img/tacos.jpg",
+    "description": "Tortillas preparadas con harina de maíz rellenas de jugosa carne asada, cebolla salteada, cilantro, aguacate con pimienta, limon y sal.",
+    "coverImage": "/img/Tacos/tacos.jpg",
     "galeria": [
-        "tacos_1.jpg",
-        "tacos_2.jpg",
-        "tacos_3.jpg"
+        "/img/Tacos/Tortillas.jpg",
+        "/img/Tacos/Carne.jpg",
+        "/img/Tacos/Cebolla.jpg",
+        "/img/Tacos/Aguacate.jpg"
     ],
     "precio": 10.25,
     "ingredientes": [
@@ -14,7 +15,9 @@
         "Tortillas de maíz",
         "Cebolla",
         "Cilantro",
-        "Limón"
+        "Limón",
+        "Aguacate",
+        "Pimienta"
     ],
     "calorias": 700,
     "alergenos": [

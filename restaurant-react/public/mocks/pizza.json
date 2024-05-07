@@ -1,12 +1,12 @@
 {
     "id": 2,
     "name": "Pizza Pepperoni",
-    "description": "Pizza con salsa de tomate, queso mozzarella y abundantes rodajas de pepperoni.",
-    "coverImage": "/img/pizza.jpg",
+    "description": "Pizza preparada a la piedra con salsa de tomate, queso mozzarella y abundantes rodajas de pepperoni.",
+    "coverImage": "/img/Pizza/pizza.jpg",
     "galeria": [
-        "pizza_1.jpg",
-        "pizza_2.jpg",
-        "pizza_3.jpg"
+        "/img/Pizza/Horno.jpg",
+        "/img/Pizza/Muzarella.jpg",
+        "/img/Pizza/Pepperoni.jpg"
     ],
     "precio": 12.50,
     "ingredientes": [

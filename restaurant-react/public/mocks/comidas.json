@@ -5,42 +5,42 @@
             "name": "Hamburguesa clásica",
             "description": "Una jugosa hamburguesa con queso, lechuga, tomate y salsa especial.",
             "precio": "$10.12",
-            "coverImage": "/img/burger1.jpg"
+            "coverImage": "/img/Hamburguesa/burger1.jpg"
         },
         {
             "id": "pizza",
             "name": "Pizza Pepperoni",
             "description": "Pizza con salsa de tomate, queso mozzarella y abundantes rodajas de pepperoni.",
             "precio": "$11.12",
-            "coverImage": "/img/pizza.jpg"
+            "coverImage": "/img/Pizza/pizza.jpg"
         },
         {
             "id": "ensalada",
             "name": "Ensalada César",
             "description": "Ensalada fresca con lechuga, pollo a la parrilla, crutones y aderezo César.",
             "precio": "$12.12",
-            "coverImage": "/img/ensalada.jpg"
+            "coverImage": "/img/Ensalada/ensalada.jpg"
         },
         {
             "id": "sushi",
             "name": "Sushi variado",
             "description": "Selección de sushi fresco incluyendo nigiri, sashimi y rolls.",
             "precio": "$13.12",
-            "coverImage": "/img/sushi.jpg"
+            "coverImage": "/img/Sushi/sushi.jpg"
         },
         {
             "id": "tacos",
             "name": "Tacos de carne asada",
             "precio": "$14.12",
             "description": "Tortillas de maíz rellenas de jugosa carne asada, cebolla y cilantro.",
-            "coverImage": "/img/tacos.jpg"
+            "coverImage": "/img/Tacos/tacos.jpg"
         },
         {
             "id": "pasta",
             "name": "Pasta Carbonara",
             "precio": "$15.12",
             "description": "Pasta italiana con una cremosa salsa de huevo, panceta, queso parmesano y pimienta negra.",
-            "coverImage": "/img/pasta.jpg"
+            "coverImage": "/img/Pasta/pasta.jpg"
         }
     ]
 }
