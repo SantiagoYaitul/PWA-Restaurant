@@ -7,23 +7,24 @@ import FoodSearch from "../FoodSearch/FoodSearch";
 export const FoodList = () => {
     const { foods } = useFoodHooks();
     const [filteredFoods, setFilteredFoods] = useState([]);
-    const [searchError, setSearchError] = useState(false);
 
     useEffect(() => {
         setFilteredFoods(foods);
     }, [foods]);
 
     return (
-        <div>
-            <FoodSearch foods={foods} setFilteredFoods={setFilteredFoods} />
-            {searchError && <p>No se encontraron alimentos.</p>}
-            {filteredFoods.length > 0 ? (
-                filteredFoods.map((food) => (
-                    <FoodItem key={food.id} food={food} />
-                ))
-            ) : (
-                !searchError && <p className='text-center'>No esta en el menu.</p>
-            )}
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div>
+                <FoodSearch foods={foods} setFilteredFoods={setFilteredFoods} />
+                {filteredFoods.length === 0 ? (
+                    <p>No se encontraron platos en el menú.</p>
+                ) : (
+                    filteredFoods.map((food) => (
+                        <FoodItem key={food.id} food={food} />
+                    ))
+                )}
+            </div>
         </div>
     );
-};
+}
+
