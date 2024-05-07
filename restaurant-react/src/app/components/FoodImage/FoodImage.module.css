@@ -3,5 +3,5 @@
 }
 
 .image {
-    @apply w-full h-full;
+    @apply w-full h-full object-cover;
 }
