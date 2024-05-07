@@ -1,5 +1,5 @@
 .navbar {
-    @apply bg-gray-800 p-4;
+    @apply bg-palette-background p-4;
 }
 
 .flexContainer {
@@ -7,7 +7,7 @@
 }
 
 .logo {
-    @apply flex items-center text-white;
+    @apply flex items-center text-palette-foreground;
 }
 
 .navLinks {
@@ -15,9 +15,9 @@
 }
 
 .navLink {
-    @apply text-white;
+    @apply text-palette-foreground;
 }
 
 .hoverEffect:hover {
-    @apply hover:text-gray-400;
+    @apply hover:text-palette-dim;
 }

@@ -2,22 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* TODO implement new palette (or another palette) */
-:root {
-  --background-color-custom: #1E152A;
-  --foreground-color: #FEFDFF;
-  --shadow-color: #6A7B76;
-  --highlight-color: #F7DD72;
-  --spotlight-color: #FF8552;
-}
-
-/* 
-body {
-  color: rgb(var(--background-color-custom));
-  background-color: rgb(var(--background-color-custom));
-} */
-
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
