@@ -11,20 +11,23 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      }
+      },
+      colors: {
+        palette: {
+          background: "#1E152A",
+          foreground: "#FEFDFF",
+          shadow: "#6A7B76",
+          dim: "#2C2A4A",
+          opaque: "#080708",
+          highlight: "#F7DD72",
+          spotlight: "#FF8552",
+          ultraviolet: "#4F518C",
+        },
+      },
     },
-    colors: {
-      "palette": {
-        "background": "#1E152A",
-        "foreground": "#FEFDFF",
-        "shadow": "#6A7B76",
-        "dim": "#2C2A4A",
-        "opaque": "#080708",
-        "highlight": "#F7DD72",
-        "spotlight": "#FF8552",
-        "ultraviolet": "#4F518C",
-      }
-    }
+    utilities: {
+      '.text-white': { color: 'white' },
+    },
   },
   plugins: [],
 };

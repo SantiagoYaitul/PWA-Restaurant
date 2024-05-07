@@ -7,6 +7,7 @@ import FoodSearch from "../FoodSearch/FoodSearch";
 export const FoodList = () => {
     const { foods } = useFoodHooks();
     const [filteredFoods, setFilteredFoods] = useState([]);
+    const [searchError, setSearchError] = useState(false);
 
     useEffect(() => {
         setFilteredFoods(foods);
@@ -15,9 +16,14 @@ export const FoodList = () => {
     return (
         <div>
             <FoodSearch foods={foods} setFilteredFoods={setFilteredFoods} />
-            {filteredFoods.map((food) => (
-                <FoodItem key={food.id} food={food} />
-            ))}
+            {searchError && <p>No se encontraron alimentos.</p>}
+            {filteredFoods.length > 0 ? (
+                filteredFoods.map((food) => (
+                    <FoodItem key={food.id} food={food} />
+                ))
+            ) : (
+                !searchError && <p className='text-center'>No esta en el menu.</p>
+            )}
         </div>
     );
 };

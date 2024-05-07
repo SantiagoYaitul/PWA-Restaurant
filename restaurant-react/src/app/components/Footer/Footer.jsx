@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FaInstagram, FaFacebookF, FaSquareXTwitter, FaSquareReddit, FaSteam, FaGithub } from "react-icons/fa6";
 
 export default () => {
-   return <div className="dark:bg-palette-background dark:text-palette-foreground flex flex-col md:flex-row justify-between flex-nowrap w-full border-t-2 rounded-t-xl px-2 py-3">
+   return <div className="dark:bg-palette-background dark:text-palette-foreground flex flex-col md:flex-row justify-between flex-nowrap w-full px-2 py-3">
       <span className="flex pl-2">
          <span className="text-center text-lg">Made with: <Link href="https://nextjs.org/" className="font-extrabold">NextJS</Link></span>
       </span>
