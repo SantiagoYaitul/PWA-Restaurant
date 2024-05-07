@@ -1,13 +1,14 @@
-import React from 'react';
-import style from './FoodSearch.module.css';
-import useFoodSearch from '../../hooks/useFoodSearch';
+import React, { useState } from 'react';
 
 const FoodSearch = ({ foods, setFilteredFoods }) => {
-    const { searchTerm, handleSearch, filteredFoods } = useFoodSearch(foods);
+    const [searchTerm, setSearchTerm] = useState('');
 
-    React.useEffect(() => {
-        setFilteredFoods(filteredFoods);
-    }, [filteredFoods, setFilteredFoods]);
+    const handleSearch = (e) => {
+        const term = e.target.value.toLowerCase();
+        setSearchTerm(term);
+        const filtered = term === '' ? foods : foods.filter(food => food.name.toLowerCase().includes(term));
+        setFilteredFoods(filtered);
+    };
 
     return (
         <div className="my-4 flex justify-center">
@@ -15,8 +16,8 @@ const FoodSearch = ({ foods, setFilteredFoods }) => {
                 type="text"
                 placeholder="Buscar comida..."
                 value={searchTerm}
-                onChange={(e) => handleSearch(e.target.value)}
-                className={`${style.input}`}
+                onChange={handleSearch}
+                className="px-4 py-2 border rounded-md"
             />
         </div>
     );
