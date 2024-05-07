@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import style from './Button.module.css';
 
-const Button = ({ id }) => {
+const Button = ({ redirect, text }) => {
 
     return (
         <div className={style.container}>
-            <Link href={`/pages/Details/?id=${id}`}>
+            <Link href={redirect}>
                 <button className={style.button}>
-                    Detalles
+                    {text}
                 </button>
             </Link>
         </div>

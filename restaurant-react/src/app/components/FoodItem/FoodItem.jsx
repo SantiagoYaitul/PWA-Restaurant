@@ -15,7 +15,7 @@ const FoodItem = ({ food }) => {
                     <div className="mt-4">
                         <h3 className={style.price}>Precio: {food.precio}</h3>
                     </div>
-                    <Button id={food.id} />
+                    <Button redirect={`/pages/Details/?id=${food.id}`} text="Detalles" />
                 </div>
             </div>
         </div>
