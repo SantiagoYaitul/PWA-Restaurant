@@ -5,15 +5,17 @@ const useFetchFoods = (id) => {
 
     useEffect(() => {
         const fetchFoods = async () => {
-            try {
-                const response = await fetch(`/mocks/${id}.json`);
-                if (!response.ok) {
-                    throw new Error('Error fetching foods');
+            if (id) {
+                try {
+                    const response = await fetch(`/mocks/${id}.json`);
+                    if (!response.ok) {
+                        throw new Error('Error fetching foods');
+                    }
+                    const data = await response.json();
+                    setFoods(data);
+                } catch (error) {
+                    console.error('Error fetching foods:', error);
                 }
-                const data = await response.json();
-                setFoods(data);
-            } catch (error) {
-                console.error('Error fetching foods:', error);
             }
         };
 
@@ -24,3 +26,4 @@ const useFetchFoods = (id) => {
 };
 
 export default useFetchFoods;
+
