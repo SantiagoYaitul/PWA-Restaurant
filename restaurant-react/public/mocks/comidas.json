@@ -2,7 +2,7 @@
     "comidas": [
         {
             "id": "hamburguesa",
-            "name": "Hamburguesa clásica",
+            "name": "Hamburguesa A++",
             "description": "Una jugosa hamburguesa con queso, lechuga, tomate y salsa especial.",
             "precio": "$10.12",
             "coverImage": "/img/Hamburguesa/burger1.jpg"
