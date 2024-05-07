@@ -15,5 +15,5 @@
 }
 
 .price {
-    @apply text-lg font-semibold text-right;
+    @apply text-palette-opaque font-semibold text-right;
 }

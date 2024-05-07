@@ -19,8 +19,10 @@ module.exports = {
         "foreground": "#FEFDFF",
         "shadow": "#6A7B76",
         "dim": "#2C2A4A",
+        "opaque": "#080708",
         "highlight": "#F7DD72",
         "spotlight": "#FF8552",
+        "ultraviolet": "#4F518C",
       }
     }
   },

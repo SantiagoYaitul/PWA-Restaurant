@@ -1,5 +1,5 @@
 .container {
-    @apply max-w-3xl mx-auto text-palette-foreground rounded-lg overflow-hidden shadow-lg;
+    @apply max-w-3xl mx-auto text-palette-opaque rounded-lg overflow-hidden shadow-lg;
 }
 
 .imageContainer {
