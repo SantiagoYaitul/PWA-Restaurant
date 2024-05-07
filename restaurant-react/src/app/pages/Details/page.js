@@ -6,11 +6,7 @@ import useUrlParams from '../../hooks/useUrlParams';
 const Page = () => {
     const id = useUrlParams();
 
-    return (
-        <div>
-            <FoodDetails id={id}/>
-        </div>
-    );
+    return <FoodDetails id={id} />;
 };
 
 export default Page;

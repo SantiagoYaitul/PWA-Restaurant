@@ -11,7 +11,7 @@ const FoodDetails = ({ id }) => {
     const { foods } = useFetchFoods(id);
 
     return (
-        <div>
+        <>
             {foods && (
                 <div className={`${style.container}`}>
                     <div className="flex">
@@ -28,7 +28,7 @@ const FoodDetails = ({ id }) => {
                     <div className={`${style.bottomPadding}`}></div>
                 </div>
             )}
-        </div>
+        </>
     );
 };
 
