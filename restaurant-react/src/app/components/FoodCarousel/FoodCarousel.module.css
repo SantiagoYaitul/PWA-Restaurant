@@ -1,0 +1,15 @@
+.additionalImagesContainer {
+    @apply p-4;
+}
+
+.title {
+    @apply text-xl font-semibold mb-2;
+}
+
+.carousel {
+    @apply flex;
+}
+
+.additionalImage {
+    @apply w-32 h-32 object-cover rounded-lg mr-2;
+}

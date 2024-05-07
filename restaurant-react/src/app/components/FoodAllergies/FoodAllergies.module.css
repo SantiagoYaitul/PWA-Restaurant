@@ -1,0 +1,11 @@
+.allergiesContainer {
+    @apply w-3/4 p-4;
+}
+
+.title {
+    @apply text-xl font-semibold mb-2;
+}
+
+.list {
+    @apply list-disc pl-8;
+}

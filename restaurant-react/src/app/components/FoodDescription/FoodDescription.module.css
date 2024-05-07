@@ -1,0 +1,11 @@
+.descriptionContainer {
+    @apply p-4;
+}
+
+.title {
+    @apply text-xl font-semibold mb-2;
+}
+
+.description {
+    @apply text-xl font-semibold mb-2;
+}

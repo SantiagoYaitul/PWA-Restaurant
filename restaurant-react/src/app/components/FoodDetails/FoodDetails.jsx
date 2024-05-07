@@ -1,7 +1,11 @@
 import React from "react";
 import style from "./FoodDetails.module.css";
-import FoodTitle from "../FootTitle/FoodTitle";
 import useFetchFoods from '../../hooks/useFetchFoods';
+import FoodIngredients from "../FoodIngredients/FoodIngredients";
+import FoodAllergies from "../FoodAllergies/FoodAllergies";
+import FoodDescription from "../FoodDescription/FoodDescription";
+import FoodCarousel from "../FoodCarousel/FoodCarousel";
+
 
 const FoodDetails = ({ id }) => {
     const { foods } = useFetchFoods(id);
@@ -14,46 +18,13 @@ const FoodDetails = ({ id }) => {
                         <div className={`${style.imageContainer}`}>
                             <img src={foods.coverImage} alt={foods.name} className={`${style.image}`} />
                         </div>
-                        <div className={`${style.ingredientsContainer}`}>
-                            <FoodTitle name={foods.name} />
-                            <h2 className={`${style.title}`}>Ingredientes</h2>
-                            <ul className={`${style.list} ${style.ingredientsList}`}>
-                                {foods.ingredientes.map((ingrediente, index) => (
-                                    <li key={index}>{ingrediente}</li>
-                                ))}
-                            </ul>
-                        </div>
+                        <FoodIngredients ingredients={foods.ingredientes} />
                     </div>
                     <div className="flex justify-center">
-                        <div className={`${style.allergiesContainer}`}>
-                            <div className="flex justify-between">
-                                <div>
-                                    <h2 className={`${style.title}`}>Alergias</h2>
-                                    <ul className={`${style.list}`}>
-                                        {foods.alergenos.map((alergeno, index) => (
-                                            <li key={index}>{alergeno}</li>
-                                        ))}
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h2 className={`${style.title}`}>Calorías</h2>
-                                    <p>Calorías por porción: {foods.calorias}</p>
-                                </div>
-                            </div>
-                        </div>
+                        <FoodAllergies allergies={foods.alergenos} calories={foods.calorias} />
                     </div>
-                    <div className={`${style.descriptionContainer}`}>
-                        <h2 className={`${style.title}`}>Descripción</h2>
-                        <p className={`${style.description}`}>{foods.description}</p>
-                    </div>
-                    <div className={`${style.additionalImagesContainer}`}>
-                        <h2 className={`${style.title}`}>Imágenes adicionales</h2>
-                        <div className={`${style.carousel}`}>
-                            {foods.galeria.map((imagen, index) => (
-                                <img key={index} src={imagen} alt={"Imagen " + (index + 1)} className={`${style.additionalImage}`} />
-                            ))}
-                        </div>
-                    </div>
+                    <FoodDescription description={foods.description} />
+                    <FoodCarousel images={foods.galeria} />
                     <div className={`${style.bottomPadding}`}></div>
                 </div>
             )}
@@ -62,3 +33,4 @@ const FoodDetails = ({ id }) => {
 };
 
 export default FoodDetails;
+

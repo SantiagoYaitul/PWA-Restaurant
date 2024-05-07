@@ -1,0 +1,15 @@
+.ingredientsContainer {
+    @apply w-1/2 p-4;
+}
+
+.title {
+    @apply text-xl font-semibold mb-2;
+}
+
+.list {
+    @apply list-disc pl-8;
+}
+
+.ingredientsList {
+    @apply pb-4;
+}
