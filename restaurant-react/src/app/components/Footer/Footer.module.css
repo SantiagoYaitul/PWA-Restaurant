@@ -1,0 +1,15 @@
+.container {
+   @apply dark:bg-palette-background dark:text-palette-foreground flex flex-col md:flex-row justify-between flex-nowrap w-full border-t-2 px-2 py-3;
+}
+
+.title {
+   @apply font-extrabold text-xl pb-2;
+}
+
+.listContainer {
+   @apply grid content-start px-10;
+}
+
+.list {
+   @apply flex flex-row;
+}

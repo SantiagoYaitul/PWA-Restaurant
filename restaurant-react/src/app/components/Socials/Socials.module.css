@@ -1,0 +1,7 @@
+.list>li {
+   @apply px-1;
+}
+
+.list>li>*>* {
+   @apply size-10;
+}
