@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div>
                     <Link href="/">
                         <span className={`${style.logo}`}>
-                            <h1 className='flex flex-row'><FaA /><FaPlus /><FaPlus /></h1>
+                            <h1 className='flex flex-row'><FaA className='text-lg' /><FaPlus className='text-lg -m-2' /><FaPlus className='text-lg' /></h1>
                         </span>
                     </Link>
                 </div>
