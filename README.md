@@ -4,6 +4,7 @@ Repositorio para la materia Programacion Avanzada en React.
 Contiene:
 - React + RIA.
 - Tailwindcss.
+- React icons.
 - Next.js.
 
 ## Requisitos:
