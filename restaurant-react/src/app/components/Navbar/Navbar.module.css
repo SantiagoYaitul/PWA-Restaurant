@@ -3,7 +3,7 @@
 }
 
 .flexContainer {
-    @apply flex justify-between;
+    @apply flex justify-between border-b border-palette-dim;
 }
 
 .logo {
