@@ -1,13 +1,17 @@
 .container {
-   @apply dark:bg-palette-background dark:text-palette-foreground flex flex-col md:flex-row justify-between flex-nowrap w-full px-2 py-3 border-t border-palette-dim;
+   @apply bg-palette-background text-palette-foreground flex flex-col gap-6 flex-nowrap w-full px-2 py-3 border-t border-palette-dim md:flex-row;
 }
 
 .title {
-   @apply font-extrabold text-xl pb-2;
+   @apply text-3xl font-extrabold md:text-xl pb-2;
+}
+
+.insideText {
+   @apply text-xl text-center text-lg;
 }
 
 .listContainer {
-   @apply grid content-start px-10;
+   @apply grid content-start w-full text-center justify-items-center;
 }
 
 .list {

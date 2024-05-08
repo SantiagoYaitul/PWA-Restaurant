@@ -1,17 +1,13 @@
 .navbar {
-    @apply bg-palette-background p-4;
+    @apply bg-palette-background p-6;
 }
 
 .flexContainer {
-    @apply flex justify-between border-b border-palette-dim;
-}
-
-.logo {
-    @apply flex items-center text-palette-foreground;
+    @apply flex justify-between border-b border-palette-dim pb-4;
 }
 
 .navLinks {
-    @apply flex space-x-4;
+    @apply flex space-x-4 text-lg md:text-2xl;
 }
 
 .navLink {

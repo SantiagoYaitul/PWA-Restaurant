@@ -1,7 +1,7 @@
 export default ({ commonStyle }) => {
-   return <span>
+   return <span className={commonStyle.listContainer}>
       <span className={commonStyle.title}>Contact</span>
-      <ul>
+      <ul className={commonStyle.insideText}>
          <li>Delivery: +** ***-**** ****</li>
          <li>Email: approvedplusplus@support.com</li>
          <li>Location: Av. Argentina 145</li>

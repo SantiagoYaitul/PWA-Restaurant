@@ -6,7 +6,7 @@ import Devs from "../Devs/Devs";
 
 export default () => {
    return <div className={style.container}>
-      <ToolsInfo />
+      <ToolsInfo commonStyle={style} />
       <Contact commonStyle={style} />
       <Socials commonStyle={style} />
       <Devs commonStyle={style} />
