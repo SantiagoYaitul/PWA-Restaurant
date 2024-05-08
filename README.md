@@ -1,11 +1,15 @@
-# PWA-Restaurant
-Repositorio para la materia Programacion Avanzada en React. 
+## PWA-Restaurant
 
-Contiene:
-- React + RIA.
-- Tailwindcss.
-- React icons.
-- Next.js.
+Repositorio para la materia Programación Avanzada en React.
+
+### Contenido
+- React + RIA. [React](https://es.react.dev/)
+- Tailwindcss. [Tailwindcss](https://tailwindcss.com/)
+- React icons. [React-icons](https://react-icons.github.io/react-icons/)
+- Next.js. [Next.js](https://nextjs.org/docs)
+
+**Nota:** En Next.js, se detallan las distintas opciones de enrutamiento, incluyendo "Using App Router" y "Using Pages Router".
+
 
 ## Requisitos:
 - Tener instalado [NodeJS](https://nodejs.org/en/download)
