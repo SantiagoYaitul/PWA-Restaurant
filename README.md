@@ -19,13 +19,6 @@ Repositorio para la materia Programación Avanzada en React.
 
 ![image](https://github.com/veraAlan/PWA-Restaurant/assets/93886135/82bdef4a-f304-4c9b-8fb8-66ee00ea606c)
 
-
-
-
-
-
-
-
 2. Posicionarse en /PWA-Restaurant con ```cd /restaurant-react```
 
 ![image](https://github.com/veraAlan/PWA-Restaurant/assets/93886135/9a704d67-ecf2-4d29-b433-936310c1cdc4)
@@ -43,6 +36,13 @@ Repositorio para la materia Programación Avanzada en React.
 5. Ir a la direccion: http://localhost:3000/
 
 ![image](https://github.com/veraAlan/PWA-Restaurant/assets/93886135/4ddc5e47-a5a5-4280-8984-34fe3643abf9)
+
+## Vista de la pagina
+![image](https://github.com/veraAlan/PWA-Restaurant/assets/93886135/bbbb8143-697b-42dd-8c74-e3ee92de94ac)
+
+---
+![image](https://github.com/veraAlan/PWA-Restaurant/assets/93886135/ddaa1723-9300-4e0d-b91c-0a9c6a25f875)
+
 
 
 ## Estructura
