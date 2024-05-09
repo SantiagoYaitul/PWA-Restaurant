@@ -4,7 +4,7 @@ import style from "./Socials.module.css";
 
 export default ({ commonStyle }) => {
    return <span className={commonStyle.listContainer}>
-      <span className={commonStyle.title}>Socials</span>
+      <span className={commonStyle.title}>Sociales</span>
       <ul className={commonStyle.list + " " + style.list}>
          <li><Link href="#"><FaInstagram /></Link></li>
          <li><Link href="#"><FaFacebookF /></Link></li>

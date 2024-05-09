@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa6";
 
 export default ({ commonStyle }) => {
    return <span className={commonStyle.listContainer}>
-      <span className={commonStyle.title}>Developers</span>
+      <span className={commonStyle.title}>Desarrolladores</span>
       <ul className={commonStyle.list}>
          <li>
             <Link className="grid justify-items-center" href="https://github.com/acostaDemianAaron">

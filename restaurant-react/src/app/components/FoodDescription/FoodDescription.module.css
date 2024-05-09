@@ -1,5 +1,5 @@
 .descriptionContainer {
-    @apply p-4;
+    @apply py-4 px-8 border-2 border-palette-ultraviolet;
 }
 
 .title {
@@ -7,5 +7,5 @@
 }
 
 .description {
-    @apply text-xl  mb-2;
+    @apply text-xl mb-2;
 }

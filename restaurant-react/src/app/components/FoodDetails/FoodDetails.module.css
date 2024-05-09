@@ -1,9 +1,9 @@
 .container {
-    @apply max-w-3xl mx-auto text-palette-foreground rounded-lg overflow-hidden shadow-lg;
+    @apply max-w-3xl bg-palette-dim border-palette-ultraviolet mx-auto text-palette-foreground rounded-lg overflow-hidden shadow-lg border-4 p-2;
 }
 
 .imageContainer {
-    @apply w-1/2 p-4;
+    @apply w-full p-4 border-2 border-palette-ultraviolet;
 }
 
 .image {
@@ -11,7 +11,7 @@
 }
 
 .ingredientsContainer {
-    @apply w-1/2 p-4;
+    @apply w-1/2 p-4 border-2 border-palette-ultraviolet;
 }
 
 .title {
@@ -48,8 +48,4 @@
 
 .ingredientsList {
     @apply pb-4;
-}
-
-.bottomPadding {
-    @apply h-20;
 }

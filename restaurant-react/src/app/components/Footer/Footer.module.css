@@ -1,5 +1,5 @@
 .container {
-   @apply bg-palette-background text-palette-foreground flex flex-col gap-6 flex-nowrap w-full px-2 py-3 border-t border-palette-dim md:flex-row;
+   @apply bg-palette-background text-palette-foreground flex flex-col justify-between gap-6 flex-nowrap w-full px-2 py-3 border-t border-palette-dim md:flex-row;
 }
 
 .title {
@@ -11,7 +11,7 @@
 }
 
 .listContainer {
-   @apply grid content-start w-full text-center justify-items-center;
+   @apply grid content-start text-center justify-items-center;
 }
 
 .list {

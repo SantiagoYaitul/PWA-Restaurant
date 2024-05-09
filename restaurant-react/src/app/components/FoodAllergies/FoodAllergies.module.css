@@ -1,5 +1,5 @@
 .allergiesContainer {
-    @apply w-3/4 p-4;
+    @apply w-full py-4 px-8 border-2 border-palette-ultraviolet;
 }
 
 .title {

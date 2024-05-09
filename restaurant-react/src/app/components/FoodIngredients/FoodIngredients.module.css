@@ -1,5 +1,5 @@
 .ingredientsContainer {
-    @apply w-1/2 p-4;
+    @apply w-2/5 p-4 border-2 border-palette-ultraviolet;
 }
 
 .title {

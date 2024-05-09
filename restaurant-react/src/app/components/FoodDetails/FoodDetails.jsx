@@ -13,7 +13,7 @@ const FoodDetails = ({ id }) => {
     return <div className={`${style.container}`}>
         {foods && (
             <div>
-                <div className="flex">
+                <div className="flex justify-between">
                     <div className={`${style.imageContainer}`}>
                         <img src={foods.coverImage} alt={foods.name} className={`${style.image}`} />
                     </div>
@@ -24,7 +24,7 @@ const FoodDetails = ({ id }) => {
                 </div>
                 <FoodDescription description={foods.description} />
                 <FoodCarousel images={foods.galeria} />
-                <div className={`${style.bottomPadding}`}></div>
+                <div className="flex justify-end w-full pb-4"><span className="text-end text-xl font-bold">Precio: ${foods.precio} </span></div>
             </div>
         )}
         <Button redirect="/pages/Menu" text="Go Back" />
